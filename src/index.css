@@ -148,7 +148,8 @@
   .bg-pattern-arabesque {
     background-image: 
       radial-gradient(circle at 20% 50%, hsl(43 74% 55% / 0.08) 0%, transparent 40%),
-      radial-gradient(circle at 80% 80%, hsl(43 74% 55% / 0.05) 0%, transparent 40%);
+      radial-gradient(circle at 80% 80%, hsl(150 40% 40% / 0.07) 0%, transparent 40%),
+      radial-gradient(circle at 60% 20%, hsl(43 74% 55% / 0.04) 0%, transparent 35%);
   }
 
   .animate-fade-up {
