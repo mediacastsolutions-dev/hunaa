@@ -54,7 +54,7 @@ export default function AuthPage() {
       <div className="relative z-10 w-full max-w-md">
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4"><HunaLogo size="lg" /></div>
-          <p className="text-muted-foreground text-sm">ادخل إلى عالم هنا — حيث تبدأ الحضارة</p>
+          <p className="text-muted-foreground text-sm">من الحضارة الإسلامية إلى الواقع لنصنع المستقبل</p>
         </div>
 
         <div className="glass-card rounded-2xl p-8 shadow-gold-lg">
