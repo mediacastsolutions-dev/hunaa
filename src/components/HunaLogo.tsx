@@ -1,4 +1,4 @@
-import logoImg from "@/assets/logo-huna-calligraphy.png";
+import logoImg from "@/assets/logo-huna-final.png";
 
 export const HunaLogo = ({ className = "", size = "default" }: { className?: string; size?: "sm" | "default" | "lg" }) => {
   const heights = { sm: "h-7", default: "h-9", lg: "h-16" };
@@ -7,8 +7,8 @@ export const HunaLogo = ({ className = "", size = "default" }: { className?: str
       <img
         src={logoImg}
         alt="هُنا"
-        width={1152}
-        height={576}
+        width={886}
+        height={520}
         className={`${heights[size]} w-auto object-contain drop-shadow-[0_0_12px_hsl(45_90%_65%/0.35)]`}
       />
     </div>
