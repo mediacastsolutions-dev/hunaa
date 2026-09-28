@@ -32,7 +32,7 @@ const SLIDES: Slide[] = [
     subtitle: "أعمال سينمائية منتقاة بعناية لتُربّي الذوق وتفتح آفاق الخيال.",
     cta: "استكشف الأفلام",
     route: "/movies",
-    image: heroEyes.url,
+    image: heroEyes,
   },
   {
     key: "risala2",
@@ -41,7 +41,7 @@ const SLIDES: Slide[] = [
     subtitle: "سيرة السيدة خديجة بنت خويلد رضي الله عنها.. أمّ المؤمنين وسند النبوة.",
     cta: "شاهد الفيلم",
     route: "/movies",
-    image: heroGuards.url,
+    image: heroGuards,
   },
   {
     key: "influencers",
@@ -50,7 +50,7 @@ const SLIDES: Slide[] = [
     subtitle: "نخبة من المؤثرين يقدّمون محتوى نافعاً يستحق المتابعة.",
     cta: "تعرّف على المؤثرين",
     route: "/influencers",
-    image: heroFriend.url,
+    image: heroFriend,
   },
   {
     key: "reels",
@@ -59,7 +59,7 @@ const SLIDES: Slide[] = [
     subtitle: "محتوى قصير وهادف يُغذّي الروح في دقائق معدودة.",
     cta: "شاهد الريلز",
     route: "/reels",
-    image: heroReading.url,
+    image: heroReading,
   },
   {
     key: "family",
@@ -68,7 +68,7 @@ const SLIDES: Slide[] = [
     subtitle: "محتوى يربّي على التواصل العائلي ويُرسّخ القيم بين الأجيال.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: heroFamily.url,
+    image: heroFamily,
   },
   {
     key: "science",
@@ -77,7 +77,7 @@ const SLIDES: Slide[] = [
     subtitle: "اكتشافات ومعارف تُشعل شغف التعلم لدى الصغار والكبار.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: heroSchool.url,
+    image: heroSchool,
   },
   {
     key: "history",
@@ -86,7 +86,7 @@ const SLIDES: Slide[] = [
     subtitle: "سرد تاريخي مُحكم يعيد إحياء ذاكرة الأمة بأسلوب شيّق.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: heroCyrus.url,
+    image: heroCyrus,
   },
   {
     key: "travel",
@@ -95,7 +95,7 @@ const SLIDES: Slide[] = [
     subtitle: "رحلات بصرية وهادفة تعرّف الأسرة بثقافات العالم المتنوعة.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: heroCarpet.url,
+    image: heroCarpet,
   },
   {
     key: "tales",
@@ -104,7 +104,7 @@ const SLIDES: Slide[] = [
     subtitle: "قصص دافئة يجتمع عليها الكبار والصغار قبل النوم.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: heroGrandpa.url,
+    image: heroGrandpa,
   },
   {
     key: "friends",
@@ -113,7 +113,7 @@ const SLIDES: Slide[] = [
     subtitle: "شخصيات ذكية صُنعت لتُخاطب الأطفال وتُرفق بهم.",
     cta: "تعرّف على المؤثرين",
     route: "/influencers",
-    image: heroSmile.url,
+    image: heroSmile,
   },
 ];
 
