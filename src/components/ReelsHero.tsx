@@ -146,12 +146,6 @@ export const ReelsHero = () => {
         </div>
       ))}
 
-      {/* السلوجين أعلى الهيرو */}
-      <div className="absolute top-24 inset-x-0 z-20 flex justify-center pointer-events-none">
-        <p className="font-serif-ar text-gold-gradient text-lg md:text-xl drop-shadow-lg">
-          من الحضارة الإسلامية إلى الواقع لنصنع المستقبل
-        </p>
-      </div>
 
       {/* المحتوى - مُركز بدون صورتين جانبيتان - مُصغّر لإعطاء مساحة أكبر للصورة */}
       <div className="relative z-20 container mx-auto px-6 pt-40 pb-32 md:pb-24 flex items-end justify-center min-h-screen">
