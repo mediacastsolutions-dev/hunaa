@@ -3,14 +3,16 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Sparkles } from "lucide-react";
 
-import movie1 from "@/assets/movie-1.jpg";
-import risala2A from "@/assets/movie-risala2-a.jpg";
-import influencer1 from "@/assets/influencer-1.jpg";
-import reel1 from "@/assets/reel-1.jpg";
-import familyImg from "@/assets/track-family.jpg";
-import scienceImg from "@/assets/track-science.jpg";
-import historyImg from "@/assets/track-history.jpg";
-import travelImg from "@/assets/track-travel.jpg";
+import heroEyes from "@/assets/hero-eyes.png";
+import heroGuards from "@/assets/hero-guards.webp";
+import heroFriend from "@/assets/hero-friend.webp";
+import heroReading from "@/assets/hero-reading.png";
+import heroFamily from "@/assets/hero-family.webp";
+import heroSchool from "@/assets/hero-school.webp";
+import heroCyrus from "@/assets/hero-cyrus.webp";
+import heroCarpet from "@/assets/hero-carpet.webp";
+import heroGrandpa from "@/assets/hero-grandpa.webp";
+import heroSmile from "@/assets/hero-smile.png";
 
 type Slide = {
   key: string;
@@ -30,7 +32,7 @@ const SLIDES: Slide[] = [
     subtitle: "أعمال سينمائية منتقاة بعناية لتُربّي الذوق وتفتح آفاق الخيال.",
     cta: "استكشف الأفلام",
     route: "/movies",
-    image: movie1,
+    image: heroEyes,
   },
   {
     key: "risala2",
@@ -39,7 +41,7 @@ const SLIDES: Slide[] = [
     subtitle: "سيرة السيدة خديجة بنت خويلد رضي الله عنها.. أمّ المؤمنين وسند النبوة.",
     cta: "شاهد الفيلم",
     route: "/movies",
-    image: risala2A,
+    image: heroGuards,
   },
   {
     key: "influencers",
@@ -48,7 +50,7 @@ const SLIDES: Slide[] = [
     subtitle: "نخبة من المؤثرين يقدّمون محتوى نافعاً يستحق المتابعة.",
     cta: "تعرّف على المؤثرين",
     route: "/influencers",
-    image: influencer1,
+    image: heroFriend,
   },
   {
     key: "reels",
@@ -57,7 +59,7 @@ const SLIDES: Slide[] = [
     subtitle: "محتوى قصير وهادف يُغذّي الروح في دقائق معدودة.",
     cta: "شاهد الريلز",
     route: "/reels",
-    image: reel1,
+    image: heroReading,
   },
   {
     key: "family",
@@ -66,7 +68,7 @@ const SLIDES: Slide[] = [
     subtitle: "محتوى يربّي على التواصل العائلي ويُرسّخ القيم بين الأجيال.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: familyImg,
+    image: heroFamily,
   },
   {
     key: "science",
@@ -75,7 +77,7 @@ const SLIDES: Slide[] = [
     subtitle: "اكتشافات ومعارف تُشعل شغف التعلم لدى الصغار والكبار.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: scienceImg,
+    image: heroSchool,
   },
   {
     key: "history",
@@ -84,7 +86,7 @@ const SLIDES: Slide[] = [
     subtitle: "سرد تاريخي مُحكم يعيد إحياء ذاكرة الأمة بأسلوب شيّق.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: historyImg,
+    image: heroCyrus,
   },
   {
     key: "travel",
@@ -93,7 +95,25 @@ const SLIDES: Slide[] = [
     subtitle: "رحلات بصرية وهادفة تعرّف الأسرة بثقافات العالم المتنوعة.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: travelImg,
+    image: heroCarpet,
+  },
+  {
+    key: "tales",
+    badge: "حكايات مسائية",
+    title: "حكايات تُروى وتُغرس",
+    subtitle: "قصص دافئة يجتمع عليها الكبار والصغار قبل النوم.",
+    cta: "اكتشف المسارات",
+    route: "/tracks",
+    image: heroGrandpa,
+  },
+  {
+    key: "friends",
+    badge: "شخصيات محبوبة",
+    title: "أصدقاء يُلامسون القلب",
+    subtitle: "شخصيات ذكية صُنعت لتُخاطب الأطفال وتُرفق بهم.",
+    cta: "تعرّف على المؤثرين",
+    route: "/influencers",
+    image: heroSmile,
   },
 ];
 
