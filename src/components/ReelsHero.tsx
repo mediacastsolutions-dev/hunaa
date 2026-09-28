@@ -32,7 +32,7 @@ const SLIDES: Slide[] = [
     subtitle: "أعمال سينمائية منتقاة بعناية لتُربّي الذوق وتفتح آفاق الخيال.",
     cta: "استكشف الأفلام",
     route: "/movies",
-    image: movie1,
+    image: heroEyes.url,
   },
   {
     key: "risala2",
@@ -41,7 +41,7 @@ const SLIDES: Slide[] = [
     subtitle: "سيرة السيدة خديجة بنت خويلد رضي الله عنها.. أمّ المؤمنين وسند النبوة.",
     cta: "شاهد الفيلم",
     route: "/movies",
-    image: risala2A,
+    image: heroGuards.url,
   },
   {
     key: "influencers",
@@ -50,7 +50,7 @@ const SLIDES: Slide[] = [
     subtitle: "نخبة من المؤثرين يقدّمون محتوى نافعاً يستحق المتابعة.",
     cta: "تعرّف على المؤثرين",
     route: "/influencers",
-    image: influencer1,
+    image: heroFriend.url,
   },
   {
     key: "reels",
@@ -59,7 +59,7 @@ const SLIDES: Slide[] = [
     subtitle: "محتوى قصير وهادف يُغذّي الروح في دقائق معدودة.",
     cta: "شاهد الريلز",
     route: "/reels",
-    image: reel1,
+    image: heroReading.url,
   },
   {
     key: "family",
@@ -68,7 +68,7 @@ const SLIDES: Slide[] = [
     subtitle: "محتوى يربّي على التواصل العائلي ويُرسّخ القيم بين الأجيال.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: familyImg,
+    image: heroFamily.url,
   },
   {
     key: "science",
@@ -77,7 +77,7 @@ const SLIDES: Slide[] = [
     subtitle: "اكتشافات ومعارف تُشعل شغف التعلم لدى الصغار والكبار.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: scienceImg,
+    image: heroSchool.url,
   },
   {
     key: "history",
@@ -86,7 +86,7 @@ const SLIDES: Slide[] = [
     subtitle: "سرد تاريخي مُحكم يعيد إحياء ذاكرة الأمة بأسلوب شيّق.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: historyImg,
+    image: heroCyrus.url,
   },
   {
     key: "travel",
@@ -95,7 +95,25 @@ const SLIDES: Slide[] = [
     subtitle: "رحلات بصرية وهادفة تعرّف الأسرة بثقافات العالم المتنوعة.",
     cta: "اكتشف المسارات",
     route: "/tracks",
-    image: travelImg,
+    image: heroCarpet.url,
+  },
+  {
+    key: "tales",
+    badge: "حكايات مسائية",
+    title: "حكايات تُروى وتُغرس",
+    subtitle: "قصص دافئة يجتمع عليها الكبار والصغار قبل النوم.",
+    cta: "اكتشف المسارات",
+    route: "/tracks",
+    image: heroGrandpa.url,
+  },
+  {
+    key: "friends",
+    badge: "شخصيات محبوبة",
+    title: "أصدقاء يُلامسون القلب",
+    subtitle: "شخصيات ذكية صُنعت لتُخاطب الأطفال وتُرفق بهم.",
+    cta: "تعرّف على المؤثرين",
+    route: "/influencers",
+    image: heroSmile.url,
   },
 ];
 
