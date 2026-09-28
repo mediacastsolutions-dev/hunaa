@@ -3,14 +3,16 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Sparkles } from "lucide-react";
 
-import movie1 from "@/assets/movie-1.jpg";
-import risala2A from "@/assets/movie-risala2-a.jpg";
-import influencer1 from "@/assets/influencer-1.jpg";
-import reel1 from "@/assets/reel-1.jpg";
-import familyImg from "@/assets/track-family.jpg";
-import scienceImg from "@/assets/track-science.jpg";
-import historyImg from "@/assets/track-history.jpg";
-import travelImg from "@/assets/track-travel.jpg";
+import heroEyes from "@/assets/hero-eyes.png.asset.json";
+import heroGuards from "@/assets/hero-guards.webp.asset.json";
+import heroFriend from "@/assets/hero-friend.webp.asset.json";
+import heroReading from "@/assets/hero-reading.png.asset.json";
+import heroFamily from "@/assets/hero-family.webp.asset.json";
+import heroSchool from "@/assets/hero-school.webp.asset.json";
+import heroCyrus from "@/assets/hero-cyrus.webp.asset.json";
+import heroCarpet from "@/assets/hero-carpet.webp.asset.json";
+import heroGrandpa from "@/assets/hero-grandpa.webp.asset.json";
+import heroSmile from "@/assets/hero-smile.png.asset.json";
 
 type Slide = {
   key: string;
